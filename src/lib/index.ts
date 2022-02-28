@@ -1,6 +1,6 @@
 
 import {cucumber} from 'stucumber';
-import {default as process} from './process';
+import process from './process';
 
 export default {
   cucumber,

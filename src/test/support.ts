@@ -19,7 +19,7 @@ cucumber.defineRule(
   /^I have numbers (\d+) and (\d+)$/,
   (world: World, a: string, b: string) => {
     // use a promise to test using promises
-    return new Promise(resolve => {
+    return new Promise<void>(resolve => {
       process.nextTick(() => {
         world.a = parseInt(a);
         world.b = parseInt(b);
