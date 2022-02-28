@@ -1,5 +1,5 @@
 {
-  "name": "gherkin-jest",
+  "name": "@livestorm/gherkin-jest",
   "version": "0.24.0",
   "description": "Run tests written in gherkin with jest",
   "main": "dist/lib/index.js",
